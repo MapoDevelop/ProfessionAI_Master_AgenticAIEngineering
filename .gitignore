@@ -1,0 +1,83 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Ambienti virtuali ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Variabili d'ambiente / secrets ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.toml
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Cache tool Python ---
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# --- Dati e modelli ML/AI ---
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.safetensors
+
+# --- Vector store / RAG ---
+*.faiss
+*.index
+chroma/
+.chroma/
+
+# --- Log ed esperimenti ---
+logs/
+runs/
+wandb/
+mlruns/
+.cache/
+
+# --- LangChain / LlamaIndex / agenti ---
+.langchain/
+.llama_index/
+
+# --- Docker ---
+*.log
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
