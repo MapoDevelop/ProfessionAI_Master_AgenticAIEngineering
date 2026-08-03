@@ -4,17 +4,18 @@
 # 3. Ma se l'anno è divisibile per 400, allora è bisestile
 
 def is_bisestile(anno):
-    if anno%4 != 0 :
-        print(f"{anno} non è bisestile")
-    else:
+    bisestile = False
+    if anno%4 == 0:
         if anno%100 == 0:
-            if anno%400 != 0:
-                print(f"{anno} non è bisestile")
-            else: 
-                print(f"{anno} è bisestile")
-        
-        else: print(f"{anno} è bisestile")
+            if anno%400 == 0:
+                bisestile = True
+        else: 
+            bisestile = True
+    return bisestile
     
 anno = int(input("Inserisci un anno: "))
 
-is_bisestile(anno)
+if is_bisestile(anno) == True:
+    print(f"L'anno {anno} è bisestile.")
+else:
+    print(f"L'anno {anno} non è bisestile.")
