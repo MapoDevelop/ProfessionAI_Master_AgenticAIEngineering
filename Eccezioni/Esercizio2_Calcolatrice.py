@@ -45,7 +45,7 @@ while True:
             raise ValueError("Errore: Valore inserito non è un numero intero valido.")
 
         operazione = input_values[1]
-        assert operazione == "+" or operazione == "-" or operazione == "*" or operazione == "/", "L'operazione deve essere scelta tra questi simboli: +, -, *, /"
+        assert (operazione in ["+", "-", "*", "/"]), "L'operazione deve essere scelta tra questi simboli: +, -, *, /"
 
         risultato = calcolatrice(n1, n2, operazione)
         print(f"Risultato dell'operazione: {risultato}")
