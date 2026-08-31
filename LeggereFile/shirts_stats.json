@@ -1,0 +1,16 @@
+{
+    "prodotti_count": 100,
+    "prodotti_total_price": 1247.5,
+    "prezzo_medio": 12.48,
+    "lab_colore": {
+        "bianco": 47,
+        "verde": 33,
+        "rosso": 20
+    },
+    "lab_taglia": {
+        "S": 25,
+        "M": 25,
+        "XL": 24,
+        "L": 26
+    }
+}
