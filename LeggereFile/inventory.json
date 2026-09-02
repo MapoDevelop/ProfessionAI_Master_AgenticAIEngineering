@@ -1,0 +1,7 @@
+{
+  "magazzino1": [
+    { "nome": "bicicletta", "quantita": 3 },
+    { "nome": "casco", "quantita": 10 }
+  ],
+  "magazzino2": [{ "nome": "lucchetto", "quantita": 15 }]
+}
